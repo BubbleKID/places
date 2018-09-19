@@ -35,14 +35,13 @@ class Sider extends Component {
   render() {
     return (
         <div className="Menu">
-         <MediaQuery query="(max-device-width: 568px)">
+         <MediaQuery query="(max-device-width: 1024px)">
           <Menu
                   mode="inline"
                   openKeys={this.state.openKeys}
                   onOpenChange={this.onOpenChange}
                   inlineCollapsed={true}
-                  defaultSelectedKeys={['5']}
-            
+                  defaultSelectedKeys={['5']}    
               >
                   <SubMenu key="sub1" title={<span><Icon type="appstore" /><span>Asia</span></span>}>
                     <Menu.Item key="1">Beijing</Menu.Item>
@@ -61,7 +60,7 @@ class Sider extends Component {
               </Menu>
          </MediaQuery>
 
-        <MediaQuery query="(min-device-width: 568px)">
+        <MediaQuery query="(min-device-width: 1024px)">
           <Menu
                 mode="inline"
                 openKeys={this.state.openKeys}

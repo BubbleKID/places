@@ -56,7 +56,10 @@ footer {
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .ant-menu{
-      width: 1024px;
+      width: 100vw;
+    }
+    .contentLayout{
+      padding:0 10px 10px!important;
     }
 
 }
@@ -67,6 +70,15 @@ footer {
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
+    .ant-menu{
+      width: 100vw;
+    }
+    .contentLayout{
+      padding:0 10px 10px!important;
+    }
+    .cityImage{
+      width:300px;
+    }
    
 }
 
@@ -76,6 +88,12 @@ footer {
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
+    .ant-menu{
+      width: 100vw;
+    }
+    .contentLayout{
+      padding:0 10px 10px!important;
+    }
    
 }
 
@@ -90,10 +108,13 @@ footer {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .ant-menu{
-      width: 568px;
+      width: 100vw;
     }
     .cityImage{
       width:150px;
+    }
+    .contentLayout{
+      padding:0 10px 10px!important;
     }
    
     
