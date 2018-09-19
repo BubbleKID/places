@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^3.9.2",
+    "antd-mobile": "^2.2.5",
     "install": "^0.12.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Menu } from 'antd';
 import 'antd/dist/antd.css'; 
-import logo from '../images/logo.svg'
+import logo from '../images/travel.png'
 
 
 class Header extends Component {
