@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "antd": "^3.9.2",
-    "antd-mobile": "^2.2.5",
-    "install": "^0.12.1",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "antd": "^3.19.2",
+    "antd-mobile": "^2.2.13",
+    "install": "^0.12.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-responsive": "^5.0.0",
     "react-responsive-image": "^4.0.0",
     "react-responsive-picture": "^2.1.0",
-    "react-scripts": "1.1.5"
+    "react-scripts": "^3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
