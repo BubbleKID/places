@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import 'antd/dist/antd.css'; 
-
+import 'antd/dist/antd.css';
 
 class Footer extends Component {
   render() {

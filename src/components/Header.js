@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import { Menu } from 'antd';
-import 'antd/dist/antd.css'; 
-import logo from '../images/travel.png'
-
+import 'antd/dist/antd.css';
 
 class Header extends Component {
   render() {
     return (
       <div className="Header"  >
         <div className="logo" >
-       
+
         </div>
         <Menu
             theme="dark"

@@ -9,8 +9,6 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-responsive": "^5.0.0",
-    "react-responsive-image": "^4.0.0",
-    "react-responsive-picture": "^2.1.0",
     "react-scripts": "^3.0.1"
   },
   "scripts": {
